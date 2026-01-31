@@ -1,12 +1,18 @@
-# Render Blueprint specification
-# https://render.com/docs/blueprint-spec
-
 services:
   - type: web
-    name: taskflow-app
-    runtime: node
-    buildCommand: npm install
-    startCommand: npm start
+    name: ai-chatbot
+    env: python
+    region: oregon
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
     envVars:
-      - key: NODE_ENV
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: ENVIRONMENT
         value: production
+      - key: MAX_TOKENS
+        value: 2048
+      - key: RATE_LIMIT_REQUESTS
+        value: 100
+      - key: RATE_LIMIT_PERIOD
+        value: 60
