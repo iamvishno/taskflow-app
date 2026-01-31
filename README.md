@@ -1,9 +1,16 @@
-# AI Chatbot - Production-Ready OpenAI Application
+# 🤖 AI Chatbot - Production-Ready OpenAI Application
 
 A modern, production-ready conversational AI chatbot built with FastAPI and OpenAI's GPT models. Features a beautiful responsive interface, rate limiting, security headers, and comprehensive error handling.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![Deploy to Render](https://img.shields.io/badge/Deploy%20to-Render-46E3B7)](https://render.com)
+
+> **🚀 Quick Deploy**: Click the button above and deploy to Render in 2 minutes!
+
+## 📱 Repository
+
+**GitHub**: [https://github.com/iamvishno/ai-chatbot](https://github.com/iamvishno/ai-chatbot)
 
 ## Features
 
@@ -40,8 +47,8 @@ A modern, production-ready conversational AI chatbot built with FastAPI and Open
 
 1. **Clone the repository**
 ```bash
-git clone <your-repo-url>
-cd claud@test
+git clone https://github.com/iamvishno/ai-chatbot.git
+cd ai-chatbot
 ```
 
 2. **Create virtual environment**
@@ -359,6 +366,10 @@ For issues or questions:
 
 ---
 
-**Built with ❤️ using Claude Code**
+**Built with ❤️ by iamvishno**
 
-Visit: [Your Deployed URL Here]
+## 🌐 Live Demo
+
+🚀 **Deployed on Render**: Deploy now at [render.com](https://render.com)
+
+📦 **GitHub Repository**: https://github.com/iamvishno/ai-chatbot
